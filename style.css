@@ -1,0 +1,34 @@
+/**
+* @tip Centering divs : http://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-of-the-page
+*/
+  body {
+		font-family: "Segoe UI", "Verdana", "Arial", "Tahoma";
+  } 
+/*<!-- [if ie 6]>
+	body {
+			text-align: center;
+	}
+<![endif]-->*/
+	div#maindiv{
+		align:center;
+		min-width:500px;
+		min-height: 800px;
+	    width:500px;
+/*		margin-left: 50%;
+		margin-right: 50%; */
+		margin: 0 auto;
+/*		border-style: solid;
+		border-color: black;
+		border-width: 1px 1px 1px 1px;		*/
+	}
+	div#maindiv div#logo_holder{
+		z-index: 10;
+		border-left: -10%;
+	}
+	div#maindiv div#h1_cont h1#title{
+		align:center
+		margin-left: 100px;
+	}
+	.standard_padding{
+		padding-left: 10px;	
+	}
